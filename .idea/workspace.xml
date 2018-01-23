@@ -6,7 +6,11 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a73279-a736-4dad-851b-ad2fbee8d73c" name="Default" comment="" />
+    <list default="true" id="f5a73279-a736-4dad-851b-ad2fbee8d73c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main.go" afterPath="$PROJECT_DIR$/main.go" />
+      <change beforePath="$PROJECT_DIR$/main_test.go" afterPath="$PROJECT_DIR$/main_test.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,25 +20,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="164">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#14#86#0" expanded="true" />
+                <element signature="e#14#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="encode.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.9.2/libexec/src/encoding/json/encode.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="986">
+              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding>
                 <element signature="e#14#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pool.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pool.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,11 +77,15 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.9.2/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/main_test.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/pool.go" />
       </list>
     </option>
   </component>
@@ -65,11 +95,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="342" />
-    <option name="width" value="1260" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -90,6 +119,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -106,7 +136,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,10 +147,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -141,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestSerial in main_test.go">
+  <component name="RunManager" selected="Go Test.TestPool in main_test.go">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="performanceTest" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -159,6 +189,15 @@
       <kind value="PACKAGE" />
       <package value="performanceTest" />
       <pattern value="^TestParallel$" />
+    </configuration>
+    <configuration name="TestPool in main_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="performanceTest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="performanceTest" />
+      <pattern value="^TestPool$" />
     </configuration>
     <configuration name="TestSerial in main_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="performanceTest" />
@@ -178,18 +217,20 @@
       <package value="performanceTest" />
       <filePath value="$PROJECT_DIR$/main_test.go" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Go Build.go build main.go" />
       <item index="1" class="java.lang.String" itemvalue="Go Test.main_test.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Test.TestSerial in main_test.go" />
       <item index="3" class="java.lang.String" itemvalue="Go Test.TestParallel in main_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestPool in main_test.go" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSerial in main_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestParallel in main_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.main_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestPool in main_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestSerial in main_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build main.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestParallel in main_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.main_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -197,34 +238,34 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestParallel_in_main_test_go - 2018.01.22 at 11h 16m 49s.xml">
-      <configuration name="TestParallel in main_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPool_in_main_test_go - 2018.01.23 at 16h 16m 29s.xml">
+      <configuration name="TestPool in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParallel_in_main_test_go - 2018.01.22 at 11h 17m 57s.xml">
-      <configuration name="TestParallel in main_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPool_in_main_test_go - 2018.01.23 at 16h 38m 02s.xml">
+      <configuration name="TestPool in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParallel_in_main_test_go - 2018.01.22 at 11h 21m 17s.xml">
-      <configuration name="TestParallel in main_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPool_in_main_test_go - 2018.01.23 at 17h 04m 02s.xml">
+      <configuration name="TestPool in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestParallel_in_main_test_go - 2018.01.22 at 11h 22m 40s.xml">
-      <configuration name="TestParallel in main_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 10h 27m 52s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 15h 44m 33s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 11h 19m 01s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 16h 10m 08s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 11h 19m 58s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 16h 31m 58s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 11h 20m 42s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 16h 40m 51s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 11h 20m 53s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 16h 42m 11s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSerial_in_main_test_go - 2018.01.22 at 11h 24m 13s.xml">
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 16h 54m 46s.xml">
+      <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSerial_in_main_test_go - 2018.01.23 at 17h 00m 57s.xml">
       <configuration name="TestSerial in main_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -232,12 +273,12 @@
     <frame x="0" y="23" width="1280" height="727" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270229" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23816794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -266,10 +307,40 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" column="49" lean-forward="false" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="49" />
+          <folding>
+            <element signature="e#14#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="1" lean-forward="false" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="24" />
           <folding>
-            <element signature="e#14#86#0" expanded="true" />
+            <element signature="e#14#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -289,7 +360,7 @@
         <state relative-caret-position="272">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#14#86#0" expanded="true" />
+            <element signature="e#14#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -369,22 +440,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_test.go">
+    <entry file="file://$PROJECT_DIR$/assets.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="714">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/bitly/go-simplejson/simplejson.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="e#14#58#0" expanded="true" />
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="29" />
+        <state relative-caret-position="164">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#14#86#0" expanded="true" />
+            <element signature="e#14#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.9.2/libexec/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="161" column="19" lean-forward="true" selection-start-line="161" selection-start-column="19" selection-end-line="161" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
